@@ -1,0 +1,20 @@
+{
+    // Use the WSL terminal as the default terminal
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    
+    // Enable C++ IntelliSense and features
+    "C_Cpp.intelliSenseEngine": "Default",
+
+    // Path to your build folder (if needed)
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+
+    // Set the default C++ standard (e.g., C++14)
+    "C_Cpp.default.cppStandard": "c++14",
+
+    // Set the default C++ IntelliSense mode
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+}
